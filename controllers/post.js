@@ -1,7 +1,6 @@
 const { PositionalAudio } = require('three')
 const verifyToken = require('../middlewares/verifyToken')
 const Post = require('../models/Post')
-const Post = require('../models/Post')
 const { post } = require('./auth')
 const postController = require('express').Router()
 
